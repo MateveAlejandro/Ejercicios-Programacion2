@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre"/> 
+        <br> <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido"/> 
+        <br> <br>
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" name="edad"/>
+        <br> <br>
+
+        Selecionar color:
+        <br> <br>   
+        <input type="radio" id="blanco" name="colores" value="Blanco" onclick="colors()">
+        <label for="blanco">Blanco</label>
+        <br> <br>
+        <input type="radio" id="negro" name="colores" value="Negro" onclick="colors()">
+        <label for="negro">Negro</label>
+        <br> <br>
+        <input type="radio" id="azul" name="colores" value="Azul" onclick="colors()">
+        <label for="azul">Azul</label>
+        <br> <br>
+
+        Cual prefiere:
+        <br> <br>
+        <input type="checkbox" id="color" name="color" value="Blanco">
+        <label for="color">Blanco</label>
+        <br> <br>
+        <input type="checkbox" id="color" name="color" value="Negro">
+        <label for="color">Negro</label>
+        <br> <br>
+        <input type="checkbox" id="color" name="color" value="Azul">
+        <label for="color">Azul</label>
+        <br> <br>
+        <button onclick="colors()">Enviar</button>
+    </form>
+
+</body>
+
+<script src="JS/funciones.js"></script>
+
+</html>
